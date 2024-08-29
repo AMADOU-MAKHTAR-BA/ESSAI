@@ -1,0 +1,41 @@
+body {
+    font-size: 15pt;
+}
+
+
+/*********MON ANIMATIONS********/
+            
+  @-webkit-keyframes appuisBoutton {
+  0% { 
+     background-color: #02FF55;
+    border : dotted´2px hsla(57, 100%, 50%, 1);
+    height: 25px;
+    box-shadow: 3px 5px 5px  rgba(352, 353, 426, 1);
+    color: hsla(262, 100%, 70%, 1);
+    border-radius: 5px;
+  }
+  33% {
+     background-color: rgba(236, 255, 2, 1);
+    border: double 2px hsla(457, 10%, 50%, 1);
+    height: 55px;
+    box-shadow: -3px 5px 5px hsla(333, 49%, 18%, 0.85);
+    color: #FF6100;
+    border-radius: 20px;
+  }
+   66% {  
+      background-color: hsla(0, 100%, 50%, 1);
+     border: double 5px hsla(517,40%,50%,15);
+     height:35px;
+     box-shadow:3px 5px -5pxrgba(52,3,426,1);
+     color:#00FF59;
+     border-radius:30px;
+   }
+   100% { 
+   /*  background-color: rgba(0, 0, 0, 1);*/
+     border: double 2px hsla(547,60%,50%,145);
+     height:45px;
+     box-shadow:3px -5px 5px rgba(352,353,426,45);
+     color: rgba(0,255,33,34);
+     border-radius:5px;
+   }
+}
